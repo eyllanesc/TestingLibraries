@@ -34,3 +34,6 @@ INCLUDEPATH += /usr/include/botan-1.11
 
 DESTDIR = $$PWD/../output
 
+
+INCLUDEPATH += $$PWD/3rdparty/BotanWrapper
+DEPENDPATH += $$PWD/3rdparty/BotanWrapper

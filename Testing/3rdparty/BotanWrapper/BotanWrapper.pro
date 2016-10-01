@@ -5,7 +5,6 @@
 #-------------------------------------------------
 
 QT       -=  gui
-QT       += core
 TARGET = BotanWrapper
 TEMPLATE = lib
 CONFIG += staticlib

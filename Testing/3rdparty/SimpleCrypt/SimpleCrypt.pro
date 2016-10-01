@@ -5,7 +5,6 @@
 #-------------------------------------------------
 
 QT       -=  gui
-QT       +=  core
 TARGET = SimpleCrypt
 TEMPLATE = lib
 CONFIG += staticlib

@@ -13,33 +13,33 @@ CONFIG += staticlib
 INCLUDEPATH += $$PWD/include
 INCLUDEPATH += $$PWD/include/adapters
 
-SOURCES += src/orm.cpp \
-    src/ormdatabase.cpp \
-    src/ormgroupby.cpp \
-    src/ormlogger.cpp \
-    src/ormobject.cpp \
-    src/ormorderby.cpp \
-    src/ormwhere.cpp \
-    src/adapters/mysqladapter.cpp \
-    src/adapters/ormabstractadapter.cpp \
-    src/adapters/postgresqladapter.cpp \
-    src/adapters/sqladapter.cpp \
-    src/adapters/sqliteadapter.cpp
+SOURCES += $$PWD/src/orm.cpp \
+    $$PWD/src/ormdatabase.cpp \
+    $$PWD/src/ormgroupby.cpp \
+    $$PWD/src/ormlogger.cpp \
+    $$PWD/src/ormobject.cpp \
+    $$PWD/src/ormorderby.cpp \
+    $$PWD/src/ormwhere.cpp \
+    $$PWD/src/adapters/mysqladapter.cpp \
+    $$PWD/src/adapters/ormabstractadapter.cpp \
+    $$PWD/src/adapters/postgresqladapter.cpp \
+    $$PWD/src/adapters/sqladapter.cpp \
+    $$PWD/src/adapters/sqliteadapter.cpp
 
 
-HEADERS += include/orm.h \
-    include/macros.h \
-    include/ormdatabase.h \
-    include/ormgroupby.h \
-    include/ormlogger.h \
-    include/ormobject.h \
-    include/ormorderby.h \
-    include/ormwhere.h \
-    include/adapters/mysqladapter.h \
-    include/adapters/ormabstractadapter.h \
-    include/adapters/postgresqladapter.h \
-    include/adapters/sqladapter.h \
-    include/adapters/sqliteadapter.h
+HEADERS += $$PWD/include/orm.h \
+    $$PWD/include/macros.h \
+    $$PWD/include/ormdatabase.h \
+    $$PWD/include/ormgroupby.h \
+    $$PWD/include/ormlogger.h \
+    $$PWD/include/ormobject.h \
+    $$PWD/include/ormorderby.h \
+    $$PWD/include/ormwhere.h \
+    $$PWD/include/adapters/mysqladapter.h \
+    $$PWD/include/adapters/ormabstractadapter.h \
+    $$PWD/include/adapters/postgresqladapter.h \
+    $$PWD/include/adapters/sqladapter.h \
+    $$PWD/include/adapters/sqliteadapter.h
 
 unix {
     target.path = /usr/lib
